@@ -5,7 +5,7 @@ char:ClearAllChildren()
 local newChar = Instance.new("Model")
 newChar.Parent = workspace
 plr.Character = newChar
-wait()
+wait(.1)
 plr.Character = char
 newChar:Destroy()
 wait()
